@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+﻿using System;
 using System.IO;
 
 namespace EOSLauncher.Module
@@ -13,8 +13,8 @@ namespace EOSLauncher.Module
                 DeepConsole.Log("Deleted EOSSDK.");
                 File.Copy(FilesUtils.FolderName+ "\\EOSSDK-Win64-Shipping.dll", FilesUtils.VRChatInstallPath + "\\VRChat_Data\\Plugins\\x86_64\\EOSSDK-Win64-Shipping.dll", true);
                 DeepConsole.Log("Copied original EOSSDK.");
-                DeepConsole.Log("Sarting VRChat...");
-                Process.Start(FilesUtils.VRChatInstallPath+ "\\start_protected_game.exe");
+                ModLoaderUtils.StartWithEAC();
+                ProcessUtils.HandleVRCLaunchEAC();
             }
         }
         public static void StartWithoutEAC()
@@ -25,8 +25,8 @@ namespace EOSLauncher.Module
                 DeepConsole.Log("Deleted EOSSDK.");
                 File.Copy(FilesUtils.FolderName + "\\CustomEOS\\EOSSDK-Win64-Shipping.dll", FilesUtils.VRChatInstallPath + "\\VRChat_Data\\Plugins\\x86_64\\EOSSDK-Win64-Shipping.dll", true);
                 DeepConsole.Log("Copied custom EOSSDK.");
-                DeepConsole.Log("Sarting VRChat...");
-                Process.Start(FilesUtils.VRChatInstallPath + "\\VRChat.exe");
+                ModLoaderUtils.StartWithoutEAC();
+                ProcessUtils.HandleVRCLaunch();
             }
         }
     }

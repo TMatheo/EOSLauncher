@@ -9,7 +9,6 @@ namespace EOSLauncher
         {
             DeepConsole.SetTittle("EOSLauncher - v1.0");
             FilesUtils.CheckFiles();
-            DeepConsole.SetupSize(55,33);
             ShowMenu();
         }
         static void ShowMenu()
@@ -23,7 +22,7 @@ namespace EOSLauncher
                 DeepConsole.Log("1. Launch Game with Anti-Cheat");
                 DeepConsole.Log("2. Launch Game without Anti-Cheat");
                 DeepConsole.Log("3. Exit");
-                DeepConsole.Log("Select an option: ");
+                DeepConsole.Log2("Select an option: ");
 
                 string input = Console.ReadLine();
                 switch (input)

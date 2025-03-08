@@ -18,6 +18,20 @@ namespace EOSLauncher.Module
             Console.Write($"{Content}\n");
             Console.ResetColor();
         }
+        public static void Log2(string Content)
+        {
+            DateTime now = DateTime.Now;
+            Console.ResetColor();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write("[");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write(now.ToString("HH:mm"));
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write("] ");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write($"{Content}");
+            Console.ResetColor();
+        }
         public static void PrintLogo()
         {
             Console.Clear();
@@ -47,12 +61,13 @@ namespace EOSLauncher.Module
              @@@%%%%%%%%%%%@@@@@@@@@@@@@@%               
                @@@@@@@@@@@@@@@@@@@@@@@@%                 
                                                          ");
+            SetupSize(55, 33);
             Console.ResetColor();
         }
-        public static void SetupSize(int Width,int Height)
+        public static void SetupSize(int Width, int Height)
         {
-            Console.WindowWidth = Width;
-            Console.WindowHeight = Height;
+            Console.SetWindowSize(Width, Height);
+            Console.SetBufferSize(Width, Height); // Match buffer size to window size to prevent scroll bars
         }
         public static void SetTittle(string Name)
         {
