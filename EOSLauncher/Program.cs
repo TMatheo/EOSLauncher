@@ -21,7 +21,8 @@ namespace EOSLauncher
                 DeepConsole.Log("===============================");
                 DeepConsole.Log("1. Launch Game with Anti-Cheat");
                 DeepConsole.Log("2. Launch Game without Anti-Cheat");
-                DeepConsole.Log("3. Exit");
+                DeepConsole.Log("3. Launch VRCCleanup");
+                DeepConsole.Log("4. Exit");
                 DeepConsole.Log2("Select an option: ");
 
                 string input = Console.ReadLine();
@@ -34,6 +35,9 @@ namespace EOSLauncher
                         VRCUtils.StartWithoutEAC();
                         break;
                     case "3":
+                        VRCCleanup.Start();
+                        break;
+                    case "4":
                         DeepConsole.Log("Exiting...");
                         return;
                     default:

@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Biscuit\\Documents\\GitHub\\EOSLauncher\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{172777D5-9C35-4301-B771-3A2EB9B774AC}|EOSLauncher\\EOSLauncher.csproj|C:\\Users\\Biscuit\\Documents\\GitHub\\EOSLauncher\\eoslauncher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{172777D5-9C35-4301-B771-3A2EB9B774AC}|EOSLauncher\\EOSLauncher.csproj|solutionrelative:eoslauncher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{172777D5-9C35-4301-B771-3A2EB9B774AC}|EOSLauncher\\EOSLauncher.csproj|c:\\users\\biscuit\\documents\\github\\eoslauncher\\eoslauncher\\module\\processutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{172777D5-9C35-4301-B771-3A2EB9B774AC}|EOSLauncher\\EOSLauncher.csproj|solutionrelative:eoslauncher\\module\\processutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{172777D5-9C35-4301-B771-3A2EB9B774AC}|EOSLauncher\\EOSLauncher.csproj|C:\\Users\\Biscuit\\Documents\\GitHub\\EOSLauncher\\eoslauncher\\module\\vrcutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{172777D5-9C35-4301-B771-3A2EB9B774AC}|EOSLauncher\\EOSLauncher.csproj|solutionrelative:eoslauncher\\module\\vrcutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{172777D5-9C35-4301-B771-3A2EB9B774AC}|EOSLauncher\\EOSLauncher.csproj|c:\\users\\biscuit\\documents\\github\\eoslauncher\\eoslauncher\\module\\vrccleanup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172777D5-9C35-4301-B771-3A2EB9B774AC}|EOSLauncher\\EOSLauncher.csproj|solutionrelative:eoslauncher\\module\\vrccleanup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{172777D5-9C35-4301-B771-3A2EB9B774AC}|EOSLauncher\\EOSLauncher.csproj|C:\\Users\\Biscuit\\Documents\\GitHub\\EOSLauncher\\eoslauncher\\module\\deepconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{172777D5-9C35-4301-B771-3A2EB9B774AC}|EOSLauncher\\EOSLauncher.csproj|solutionrelative:eoslauncher\\module\\deepconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172777D5-9C35-4301-B771-3A2EB9B774AC}|EOSLauncher\\EOSLauncher.csproj|C:\\Users\\Biscuit\\Documents\\GitHub\\EOSLauncher\\eoslauncher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172777D5-9C35-4301-B771-3A2EB9B774AC}|EOSLauncher\\EOSLauncher.csproj|solutionrelative:eoslauncher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172777D5-9C35-4301-B771-3A2EB9B774AC}|EOSLauncher\\EOSLauncher.csproj|c:\\users\\biscuit\\documents\\github\\eoslauncher\\eoslauncher\\module\\vrcutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172777D5-9C35-4301-B771-3A2EB9B774AC}|EOSLauncher\\EOSLauncher.csproj|solutionrelative:eoslauncher\\module\\vrcutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172777D5-9C35-4301-B771-3A2EB9B774AC}|EOSLauncher\\EOSLauncher.csproj|C:\\Users\\Biscuit\\Documents\\GitHub\\EOSLauncher\\eoslauncher\\module\\processutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172777D5-9C35-4301-B771-3A2EB9B774AC}|EOSLauncher\\EOSLauncher.csproj|solutionrelative:eoslauncher\\module\\processutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,55 +30,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "VRCCleanup.cs",
+              "DocumentMoniker": "C:\\Users\\Biscuit\\Documents\\GitHub\\EOSLauncher\\EOSLauncher\\Module\\VRCCleanup.cs",
+              "RelativeDocumentMoniker": "EOSLauncher\\Module\\VRCCleanup.cs",
+              "ToolTip": "C:\\Users\\Biscuit\\Documents\\GitHub\\EOSLauncher\\EOSLauncher\\Module\\VRCCleanup.cs",
+              "RelativeToolTip": "EOSLauncher\\Module\\VRCCleanup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T02:21:46.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "DeepConsole.cs",
               "DocumentMoniker": "C:\\Users\\Biscuit\\Documents\\GitHub\\EOSLauncher\\EOSLauncher\\Module\\DeepConsole.cs",
               "RelativeDocumentMoniker": "EOSLauncher\\Module\\DeepConsole.cs",
               "ToolTip": "C:\\Users\\Biscuit\\Documents\\GitHub\\EOSLauncher\\EOSLauncher\\Module\\DeepConsole.cs",
               "RelativeToolTip": "EOSLauncher\\Module\\DeepConsole.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwB8AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAMwEQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T12:48:17.369Z"
+              "WhenOpened": "2025-03-08T12:48:17.369Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Biscuit\\Documents\\GitHub\\EOSLauncher\\EOSLauncher\\Program.cs",
               "RelativeDocumentMoniker": "EOSLauncher\\Program.cs",
               "ToolTip": "C:\\Users\\Biscuit\\Documents\\GitHub\\EOSLauncher\\EOSLauncher\\Program.cs",
               "RelativeToolTip": "EOSLauncher\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowB4AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T12:48:10.605Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ProcessUtils.cs",
               "DocumentMoniker": "C:\\Users\\Biscuit\\Documents\\GitHub\\EOSLauncher\\EOSLauncher\\Module\\ProcessUtils.cs",
               "RelativeDocumentMoniker": "EOSLauncher\\Module\\ProcessUtils.cs",
-              "ToolTip": "C:\\Users\\Biscuit\\Documents\\GitHub\\EOSLauncher\\EOSLauncher\\Module\\ProcessUtils.cs*",
-              "RelativeToolTip": "EOSLauncher\\Module\\ProcessUtils.cs*",
+              "ToolTip": "C:\\Users\\Biscuit\\Documents\\GitHub\\EOSLauncher\\EOSLauncher\\Module\\ProcessUtils.cs",
+              "RelativeToolTip": "EOSLauncher\\Module\\ProcessUtils.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T12:47:07.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T12:47:07.31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "VRCUtils.cs",
               "DocumentMoniker": "C:\\Users\\Biscuit\\Documents\\GitHub\\EOSLauncher\\EOSLauncher\\Module\\VRCUtils.cs",
               "RelativeDocumentMoniker": "EOSLauncher\\Module\\VRCUtils.cs",
               "ToolTip": "C:\\Users\\Biscuit\\Documents\\GitHub\\EOSLauncher\\EOSLauncher\\Module\\VRCUtils.cs",
               "RelativeToolTip": "EOSLauncher\\Module\\VRCUtils.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T12:46:08.696Z",
               "EditorCaption": ""

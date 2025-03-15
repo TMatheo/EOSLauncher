@@ -1,0 +1,6 @@
+C:\Users\Biscuit\Documents\GitHub\EOSLauncher\EOSLauncher\bin\Debug\EOSLauncher.exe
+C:\Users\Biscuit\Documents\GitHub\EOSLauncher\EOSLauncher\bin\Debug\EOSLauncher.pdb
+C:\Users\Biscuit\Documents\GitHub\EOSLauncher\EOSLauncher\obj\Debug\EOSLauncher.csproj.AssemblyReference.cache
+C:\Users\Biscuit\Documents\GitHub\EOSLauncher\EOSLauncher\obj\Debug\EOSLauncher.csproj.CoreCompileInputs.cache
+C:\Users\Biscuit\Documents\GitHub\EOSLauncher\EOSLauncher\obj\Debug\EOSLauncher.exe
+C:\Users\Biscuit\Documents\GitHub\EOSLauncher\EOSLauncher\obj\Debug\EOSLauncher.pdb

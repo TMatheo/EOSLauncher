@@ -74,9 +74,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Module\DeepConsole.cs" />
+    <Compile Include="Module\EZModLoaderInstaller.cs" />
     <Compile Include="Module\FilesUtils.cs" />
     <Compile Include="Module\ModLoaderUtils.cs" />
     <Compile Include="Module\ProcessUtils.cs" />
+    <Compile Include="Module\VRCCleanup.cs" />
     <Compile Include="Module\VRCUtils.cs" />
     <Compile Include="Module\WindowsUtils.cs" />
     <Compile Include="Program.cs" />
